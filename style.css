@@ -1,13 +1,14 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #F4F6F8;
+    color: #2E2E2E;
 }
 
+/* HEADER */
 header {
-    background:#e2ac41;
-    color: #fff;
+    background: #1F3A5F;
+    color: #ffffff;
     padding: 20px;
     text-align: center;
 }
@@ -27,46 +28,62 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
+    font-weight: bold;
 }
 
+header nav ul li a:hover {
+    color: #5BC0BE;
+}
+
+/* SECTIONS */
 section {
     padding: 20px;
     margin: 20px;
-    background: #fff;
+    background: #ffffff;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(16, 19, 218, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
 }
 
 h2 {
-    color: #d0a629;
+    color: #1F3A5F;
 }
 
-ul {
-    list-style: none;
-    padding: 0;
-}
-
+/* PROJECT / EXPERIENCE CARDS */
 .project-card {
     margin: 20px 0;
 }
 
 .project-card h3 {
-    color:#b98d14;
+    color: #3A506B;
 }
 
+/* LISTS */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li::before {
+    content: "• ";
+    color: #5BC0BE;
+    font-weight: bold;
+}
+
+/* FOOTER */
 footer {
-    background: #e1c009;
-    color: #fff;
+    background: #3A506B;
+    color: #ffffff;
     text-align: center;
     padding: 20px;
 }
 
 footer a {
-    color: #fff;
+    color: #5BC0BE;
     text-decoration: none;
     margin: 0 10px;
+    font-weight: bold;
 }
 
 footer a:hover {
